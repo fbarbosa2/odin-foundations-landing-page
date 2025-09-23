@@ -49,6 +49,7 @@ ul {
 .content1 img {
     width: 500px;
     height: 250px;
+    object-fit: contain;
 }
 
 .content2 {
@@ -59,6 +60,30 @@ ul {
     flex-direction: column;
     align-items: center;
     padding-top: 40px ;
+}
+
+.content3 {
+    background-color: #282112;
+    color: #D1DAE3;
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#quoter {
+    font-weight: bold;
+    text-align: end;
+}
+
+.quoteSpace {
+    max-width: 600px;
 }
 
 .cards {
@@ -80,6 +105,34 @@ ul {
 .card img {
     border: solid 5px #5091ED;
     border-radius: 15px;
+}
+
+.footer {
+    background-color: #140A00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 120px;
+}
+
+.footersTab {
+    background-color: #5091ED;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px 70px;
+    gap: 100px;
+}
+
+.footersTab button {
+    border: solid 2px;
+}
+
+#call-to-action-p {
+    font-weight: bold;
+}
+
+#signup-p {
+    font-weight: lighter;
 }
 
 .signup-btn {
